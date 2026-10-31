@@ -68,16 +68,16 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/bg-1.jpg
 
 # The banner image of index page
-index_img:
+index_img: /img/bg-index.webp
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/bg-archive.jpg
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /img/bg-tag.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -85,7 +85,7 @@ tag_img:
 tag_per_img:
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/bg-2.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -97,7 +97,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: url(/img/bg-1.jpg)
 
 cover:
   # Disable the cover or not
@@ -149,7 +149,7 @@ post_meta:
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 100vh
 
 # The subtitle on homepage
 subtitle:
