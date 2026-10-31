@@ -97,7 +97,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background: url(/img/bg-1.jpg)
+background: /img/bg-1.jpg
 
 cover:
   # Disable the cover or not
