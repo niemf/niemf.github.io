@@ -100,9 +100,9 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-## 单分支方案：源码工程（含 public/）直接 git push 到 main 分支
-## GitHub Pages 从 main 分支根目录发布
+## 双分支方案：源码在 main 分支，构建产物由 hexo-deployer-git 推到 gh-pages 分支
+## GitHub Pages 发布源设为 gh-pages 分支根目录
 deploy:
-  type: ''
-  repo: https://github.com/niemf/niemf.github.io.git
-  branch: main
+  type: git
+  repo: git@github.com:niemf/niemf.github.io.git
+  branch: gh-pages
