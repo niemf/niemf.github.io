@@ -61,20 +61,20 @@ social:
 favicon: /img/avatar.svg
 
 avatar:
-  img: /img/avatar.svg
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/bg-3.jpg
+default_top_img: /img/bg-about.jpg
 
 # The banner image of index page
 index_img: /img/bg-index.webp
 
 # The banner image of archive page
-archive_img: /img/bg-archive.jpg
+archive_img: /img/bg-archives.jpg
 
 # Note: tag page, not tags page
 tag_img: /img/bg-tag.jpg
@@ -85,7 +85,7 @@ tag_img: /img/bg-tag.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img: /img/bg-2.jpg
+category_img: /img/bg-category.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -167,7 +167,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: false
+  source: 1
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
     - 记录技术、生活与思考
